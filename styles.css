@@ -31,13 +31,13 @@ header, article, footer {
   margin: 2em;
   padding: 1em;
 }
-.flex-container span {
+.flex-container span, #button {
 	background-color:#56b2cb;
 	border-radius:5px;
 	color:#fff;
 	padding:.5em 1em;
 }
-.flex-container span a {
+.flex-container span a, #button a {
 	color:#fff;
 	font-size:1.25em;
 	text-decoration:none;
