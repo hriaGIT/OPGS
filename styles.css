@@ -39,10 +39,18 @@ header, article, footer {
 }
 .flex-container span a {
 	color:#fff;
+	font-size:1.25em;
+	text-decoration:none;
 }
 .footer {
 	background-color:#F2F2F2;
+	height:200px;
 	padding:2em 0;
+}
+#DPHLogo {
+	float:right;
+	height:100px;
+	width:auto;
 }
 button#chat-button {
 	background-color:#56b2cb;
