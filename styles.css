@@ -44,3 +44,13 @@ header, article, footer {
 	background-color:#F2F2F2;
 	padding:2em 0;
 }
+button#chat-button {
+	background-color:#56b2cb;
+	border-radius: 15px 15px 0 0;
+	bottom: 0px;
+	color: #fff;
+	font-size: 1em;
+	padding: .75em 1.25em;
+    position: fixed;
+    right: 100;
+}
