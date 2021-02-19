@@ -31,10 +31,11 @@ header, article, footer {
 	float:right;
 	margin-top:1.5em;
 	padding:.5em 1em;
-	text-decoration:none;
+	
 }
 #callButton a {
 	color:#fff;
+	text-decoration:none;
 }
 .flex-container {
 	display: flex;
