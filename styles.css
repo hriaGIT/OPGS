@@ -24,6 +24,17 @@ header, article, footer {
 	padding:2em;
 	width:400px;
 }
+#callButton {
+	background-color:#f6a04d;
+	border-radius:5px;
+	color:#fff;
+	float:right;
+	margin-top:1.5em;
+	padding:.5em 1em;
+}
+#callButton a {
+	color:#fff;
+}
 .flex-container {
 	display: flex;
 }
@@ -32,7 +43,7 @@ header, article, footer {
   padding: 1em;
 }
 .flex-container span, #button {
-	background-color:#56b2cb;
+	background-color:#f6a04d;
 	border-radius:5px;
 	color:#fff;
 	padding:.5em 1em;
@@ -53,7 +64,7 @@ header, article, footer {
 	width:auto;
 }
 button#chat-button {
-	background-color:#56b2cb;
+	background-color:#f6a04d;
 	border-radius: 15px 15px 0 0;
 	bottom: 0px;
 	color: #fff;
