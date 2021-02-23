@@ -4,28 +4,8 @@
         "transport": {
           "type": "purecloud-v2-sockets",
           "dataURL": "https://api.mypurecloud.com",
-          "deploymentKey": "ba3a1f8e-06ab-44c4-bc7b-c2f16d64d31d",
-          "orgGuid": "7f20556b-100a-409e-996d-7d6e740ae2cb",
-          "interactionData": {
-            "routing": {
-              "targetType": "QUEUE",
-              "targetAddress": "MA_EN_chat",
-              "priority": 2
-            }
-          }
-        },
-        "userData": {
-          "addressStreet": "",
-          "addressCity": "",
-          "addressPostalCode": "",
-          "addressState": "",
-          "phoneNumber": "",
-          "customField1Label": "",
-          "customField1": "",
-          "customField2Label": "",
-          "customField2": "",
-          "customField3Label": "",
-          "customField3": ""
+          "deploymentKey": "17f3a872-ce6d-4101-887c-039aa0f909d6",
+          "orgGuid": "7f20556b-100a-409e-996d-7d6e740ae2cb"
         }
       }
     }
@@ -47,14 +27,14 @@
             "id": "cx_webchat_form_firstname",
             "name": "firstname",
             "maxlength": "100",
-            "placeholder": "Required",
+            "placeholder": "Optional",
             "label": "First Name"
           },
           {
             "id": "cx_webchat_form_lastname",
             "name": "lastname",
             "maxlength": "100",
-            "placeholder": "Required",
+            "placeholder": "Optional",
             "label": "Last Name"
           },
           {
