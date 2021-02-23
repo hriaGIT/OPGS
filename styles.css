@@ -4,11 +4,11 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 h1 {
-	color:#005555;
+	color:#106275;
 	font-size:2em;
 }
 a {
-	color:#005555;
+	color:#106275;
 }
 header, article, main {
 	display:block;
@@ -34,16 +34,18 @@ main {
 	width:400px;
 }
 #callButton {
-	background-color:#005555;
-	border-radius:5px;
-	color:#fff;
+	color:#4f5b6d;
 	float:right;
+	font-size:24px;
 	margin-top:60px;
 	padding:.5em 1em;
-	
+}
+#callButton img {
+	Height:auto;
+	width:24px;
 }
 #callButton a {
-	color:#fff;
+	color:#4f5b6d;
 	text-decoration:none;
 }
 .flex-container-overlay {
@@ -54,15 +56,18 @@ main {
     right: 0;
 }
 .flex-container-overlay span {
-	background-color:#005555;
+	background-color:#106275;
 	border-radius:5px;
-	height:24px;
+	height:44px;
 	padding:.5em 1em;
+	text-align:center;
 }
 .flex-container-overlay span a {
 	color:#fff;
 	font-size:1.25em;
+	text-align:center;
 	text-decoration:none;
+	
 }
 .flex-container, .flex-container-overlay {
 	display: flex;
@@ -72,7 +77,7 @@ main {
   	padding: 1em;
 }
 .flex-container span, #button {
-	background-color:#005555;
+	background-color:#106275;
 	border-radius:5px;
 	padding:.5em 1em;
 	text-align:center;
@@ -94,7 +99,7 @@ main {
 	width:auto;
 }
 button#chat-button {
-	background-color:#005555;
+	background-color:#106275;
 	border-radius: 15px 15px 0 0;
 	bottom: 0px;
 	color: #fff;
