@@ -1,20 +1,30 @@
 <!doctype>
-<html>
+<html lang="en">
 <head>
 	<title>The MA Problem Gambling Helpline</title>
 	<link rel="shortcut icon" type="image/jpg" href="./files/images/favicon.ico">
 	<link rel="stylesheet" href="./styles.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap" rel="stylesheet">
-	<script src="https://apps.mypurecloud.com/widgets/9.0/cxbus.min.js" onload="javascript:CXBus.configure({debug:false,pluginsPath:'https://apps.mypurecloud.com/widgets/9.0/plugins/'}); CXBus.loadPlugin('widgets-core');"></script>
-	<script src="./files/js/scripts.js"></script>
 </head>
 <body>
+	<div id="skip" style="left:-999px;position:absolute;top:auto;width:1px;height:1px;overflow:hidden;z-index:-999;"><a href="#content">Skip to Main Content</a></div>
 	<header>
 		<img id="logo" src="./files/images/logo.svg" alt="the MA Problem Gambling Helpline" />
+		<div id="callButton">
+			<a href="tel:8003275050" class="external" target="_blank"><img src="./files/images/DarkerPhone.webp" alt=""> 800.327.5050</a>
+		</div>
 	</header>
-		<img id="hero" src="./files/images/hero.png" />
-	<article>
+		<div id="hero">
+			<div class="flex-container-overlay">
+				<span><a href="tel:18003275050">Call now
+					<br />
+					800.327.5050</a>
+				</span>
+				<span><a href="https://mahelplineonline.custhelp.com/app/account/opa_result/incident_id/MjU3OTA1">Search for services</a></span>
+			</div>
+		</div>
+	<main role="main" id="content">
 		<h1>Are you, or someone you care about, experiencing problems with gambling?</h1>
 		<p><strong>Problem gambling can be treated and people do recover.</strong></p>
 		<p>The MA Problem Gambling Helpline is the official problem gambling helpline of the MA Department of Public Health.</p>
@@ -22,20 +32,24 @@
 		<p>MA Problem Gambling Helpline services are free and confidential.</p>
 		<p><strong>Trained Specialists are available to help 24 hours a day, 7 days a week.</strong></p>
 		<div class="flex-container">
-			<span><a href="tel:18003275050">Call now</a></span>
+			<span><a href="tel:18003275050">Call now
+					<br />
+					800.327.5050</a>
+				</span>
 			<span><a href="https://mahelplineonline.custhelp.com/app/account/opa_result/incident_id/MjU3OTA1">Search for services</a></span>
 			<span><a href="https://helplinema.org/problemgambling">Learn more</a></span>
 		</div>
-		<p>Find the right services for you by taking a short assessment.</p>
-		<span id="button"><a href="https://mahelplineonline.custhelp.com/app/account/opa_interview">Take the assessment</a></span>
-	</article>
+		<p><strong>Find the right services for you by taking a <a href="https://mahelplineonline.custhelp.com/app/account/opa_interview">short assessment.</a></strong><br /><br/></p>
+	</main>
 	<div class="footer">
 		<footer>
-			<a href="https://www.mass.gov/orgs/office-of-problem-gambling-services" id="DPHLogo"><img src="./files/images/MADPHLogo.svg" /></a>
-			<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Start Chat</button>
+			<a href="https://www.mass.gov/orgs/office-of-problem-gambling-services" id="DPHLogo"><img src="./files/images/MADPHLogo.svg" alt="Massachusetts Department of Public Health Logo"/></a>
+			<button aria-label="start chat" type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Start Chat</button>
 			©2021 Office of Problem Gambling - Massachusetts Department of Public Health
 			<p><a href="https://helplinema.org/privacy/">Privacy policy</a>  |   <a href="https://helplinema.org/terms-of-use/">Terms and conditions</a>  |   <a href="https://helplinema.org/accessibility/">Accessibility policy</a>  |   <a href="https://helplinema.org/contact-us/">Contact us</a>
 		</footer>
 	</div>
+	<script src="https://apps.mypurecloud.com/widgets/9.0/cxbus.min.js" onload="javascript:CXBus.configure({debug:false,pluginsPath:'https://apps.mypurecloud.com/widgets/9.0/plugins/'}); CXBus.loadPlugin('widgets-core');"></script>
+	<script src="./files/js/scripts.js"></script>
 </body>
 </html>

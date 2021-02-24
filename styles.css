@@ -20,7 +20,7 @@ main {
 	
 }
 #hero {
-	background: url(./files/images/hero.png);
+	background: url(./files/images/hero.webp);
     background-repeat: no-repeat;
     background-size: contain;
     height: 0;
