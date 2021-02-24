@@ -58,7 +58,6 @@ main {
 .flex-container-overlay span {
 	background-color:#106275;
 	border-radius:5px;
-	height:44px;
 	padding:.5em 1em;
 	text-align:center;
 }
@@ -70,6 +69,7 @@ main {
 	
 }
 .flex-container, .flex-container-overlay {
+	align-items: center;
 	display: flex;
 }
 .flex-container > span, .flex-container-overlay > span {
