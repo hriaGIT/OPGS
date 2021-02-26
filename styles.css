@@ -108,3 +108,34 @@ button#chat-button {
     position: fixed;
     right: 100;
 }
+@media screen and (max-width: 480px) {
+	#logo {
+		width:150px !important;
+	}
+	#callButton {
+		display:none
+	}
+	.flex-container-overlay > span {
+		font-size:.8em;
+		margin:1em;
+		padding:.5em 1em;
+	}
+	#DPHLogo {
+		margin-bottom:1em;
+		width:100%
+	}
+	#DPHLogo img {
+		clear:both;
+		float:none;
+		height:100px !important;
+		width:auto !important;
+}
+	.flex-container {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.flex-container > span {
+		margin:1em;
+		width:40%;
+	}
+}
